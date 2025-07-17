@@ -10,17 +10,17 @@
 - **Endpoint:** Global  
 - **Severity:** High  
 
-#### **2. Predictable Restore Token**  
+### **2. Predictable Restore Token**  
 **Type:** Insecure Token Generation  
 **Endpoint:** /modules/restore.php  
 **Severity:** Medium   
 
-##### **3. XSS through file upload**  
+### **3. XSS through file upload**  
 - **Type:** Stored Cross-Site Scripting  
 - **Endpoint:** /modules/uploads.php  
 - **Severity:** Low  
 
-###### **4. PHP Object Injection via deser Parameter**  
+### **4. PHP Object Injection via deser Parameter**  
 - **Type: PHP Object Injection**  
 - **Endpoint:** /supersecretscript.php  
 - **Severity:** High  

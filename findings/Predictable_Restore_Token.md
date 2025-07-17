@@ -1,4 +1,4 @@
-
+# Description  
 - **Type: Insecure Password Reset Token Generation (Predictable Token)**  
 - **Severity: High**  
 - **Impact: Password reset for users**   
@@ -10,7 +10,7 @@ Inside login page there is a button to restore lost password that goes under **/
 
 ![restorepag](../images/restore_page.jpg)  
 
-# Poc 
+## Poc 
 After submiting login to restore password, it redirects back to home page but, in http histore of Burp suite we can see that it made POST request with login=USER.  
 ![post](../images/post.png)  
 

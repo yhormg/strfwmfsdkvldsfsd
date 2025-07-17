@@ -1,3 +1,12 @@
+# Description
+
+- **Type:** PHP Object Injection (POI)
+- **Location:** `/supersecretscript.php?deser=`
+- **Severity:** High
+- **Impact:** Code execution via destruct method chain
+- **Confirmed:** Yes (Flag retrieved)
+- **RCE:** Not fully achieved (restricted to hardcoded command)
+
 During reconnaissance **/robots.txt** was found with **/supersecret.php** endpoint  
 
 ```
@@ -20,7 +29,7 @@ By passing seriliazed object through deser parameter it is possible to make gadg
 
 But since our string can't start with O, we can't insert it directly, but this can easily be done by wrapping it in array.  
 
-**PoC:**  
+## PoC
 
 **To exploit Sys_MGR()**  
 

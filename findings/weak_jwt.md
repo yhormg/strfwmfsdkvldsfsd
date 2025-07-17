@@ -71,7 +71,7 @@ print(token)
 New jwt token:  
 > eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzYwLCJsb2dpbiI6Inlob3JtIiwicm9sZSI6InVzZXIiLCJtYWlsIjoiMTIzQDEyMy5jb20iLCJpcCI6IjE0Ni4xNTguNjYuMjA5In0.0ej8hhRWs6vqNhRNQ4w-7G2xTSEqixOzFPauTyIxY6c
 
-![jwttt](..images/jwt_final.jpg)
+![jwttt](../images/jwt_final.jpg)
 
 Successfully got access to other account image only by changing id value. 
 

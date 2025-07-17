@@ -49,7 +49,7 @@ And second
 ```
 
 With that tokens we will try to access /images.php?id=13921 (POOC user image) which is not accesible to 'yhorm' user.  
-[jwt_poc](../images/jwt_poc.jpg)  
+![jwt_poc](../images/jwt_poc.jpg)  
 
 After testing it was clear that we can access others image only by changing **id** value.  
 ```python

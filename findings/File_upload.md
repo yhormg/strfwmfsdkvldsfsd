@@ -27,5 +27,7 @@ Send POST /upload.php with malicious HTML/JS file inside.
 
 After that, if admin decides to go in given link (images.php?id=123) we will get his cookies.  
 
+Video:  
+
 ![upload](../images/file_upload.gif) 
 

@@ -25,6 +25,6 @@ Vulnerability Assessment Report
 **Endpoint:** /supersecretscript.php  
 **Severity:** High  
 
-**Every vulnerability along with PoC described in [findings/](http://github.com/yhormg/wallarm_test_task/main/findings**
+**Every vulnerability along with PoC are described in [findings/](/findings).**
 
 

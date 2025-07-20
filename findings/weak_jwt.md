@@ -24,7 +24,7 @@ For that PoC I created 2 different account with given JWTs:
 
 When decoded:
 
-```
+```json
 {
   "id": 342,
   "login": "yhorm",

@@ -27,7 +27,7 @@ By passing seriliazed object through deser parameter it is possible to make gadg
 **Example of serialized object**  
 > O:8:"Sys__MGR":2:{s:3:"cmd";s:27:"curl http://127.0.0.1:1001/";s:7:"message";s:5:"hello";}  
 
-But since our string can't start with O, we can't insert it directly, but this can easily be done by wrapping it in array.  
+But since our string can't start with O, we can't insert it directly, but this can easily be avoided by wrapping it in array.  
 
 ## PoC
 

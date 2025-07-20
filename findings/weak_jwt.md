@@ -3,7 +3,7 @@
 
 - **Type:** Broken Authentication / JWT Secret Disclosure  
 - **Location:** All JWT-protected endpoints  
-- **Severity:** 🔴 High  
+- **Severity:**  High  
 - **Impact:** Token forgery, role escalation, account impersonation  
 
 The application uses **JSON Web Tokens (JWT)** for authentication and authorization, signed with the `HS256` algorithm.  
